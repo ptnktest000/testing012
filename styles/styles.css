@@ -1,0 +1,41 @@
+body, html {
+  height: 100%;
+}
+
+.image-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/14390841_1727382040858344_8784827842060729613_n.jpg?_nc_cat=107&_nc_oc=AQkxAX9sAoJJxPqXD8RyYkfNoXthkYTNBgPD0rWo63kyKfz2beG6QOFHX6C0Ao-yLlGVd4sa2KsXiQi4zIUa-sTt&_nc_ht=scontent.fsgn2-1.fna&oh=91e99adff3f84cbb6be180ce7442bd5e&oe=5D4CE1D6");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bruh {
+  background-color: #f4f4f4;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: #a0a0a0;
+}
+
+.bruh:hover {
+  background-color: #dbdbdb;
+  color: #f4f4f4;
+}
